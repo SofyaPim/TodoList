@@ -1,24 +1,39 @@
 body {
     background: #f9e933;
+    font-family: 'Roboto Slab', serif;
+    font-size: 100%;
   }
+  
 header,
 main,
 footer {
     min-width: 855px;
     
 }
-header {
-    background: white;
-    overflow: auto;
+h1, h2, h3, h4{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-size: 400%;
+   
+}
+h2{
+    font-size: 300%;
+}
+h3{
+    font-size: 200%;
+}
+h4{
+    font-size: 150%;
+}
+header .container{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   align-items: baseline;
+   
   }
-  header h1 {
-  float: left;
-    width: 570px;
-  }
-  header nav {
-    float: right;
-    width: 285px;
-  }
+  
   
 header .container, main .container, footer .container { max-width: 855px;
     margin: auto;
@@ -37,4 +52,14 @@ header {
   main {
     background: white;
   }
-  
+  *{
+    margin-bottom: 40px;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+a:hover{
+    text-decoration: underline;
+}
