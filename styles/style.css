@@ -1,0 +1,40 @@
+body {
+    background: #f9e933;
+  }
+header,
+main,
+footer {
+    min-width: 855px;
+    
+}
+header {
+    background: white;
+    overflow: auto;
+  }
+  header h1 {
+  float: left;
+    width: 570px;
+  }
+  header nav {
+    float: right;
+    width: 285px;
+  }
+  
+header .container, main .container, footer .container { max-width: 855px;
+    margin: auto;
+    }
+    main .container, footer .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 0;
+        padding-right: 40px;
+    }
+header {
+    background: white;
+  }
+  main {
+    background: white;
+  }
+  
