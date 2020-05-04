@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="246.993" y1="27.628" x2="246.993" y2="346.732" id="gradient-0" gradientTransform="matrix(1, 0, 0, 1, 0, 0)">
+      <stop offset="0" style="stop-color: rgba(0, 0, 0, 0.25)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 0.25)"/>
+    </linearGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.571" cy="98.997" r="116.531" id="gradient-1" gradientTransform="matrix(-0.999115, -0.046225, 0.02091, -0.451933, 489.43454, 155.860611)">
+      <stop offset="0" style="stop-color: rgba(192, 226, 231, 1)"/>
+      <stop offset="1" style="stop-color: rgb(203, 206, 137);"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <path style="stroke: url(#gradient-0); fill: url(#gradient-1);" d="M 130.499 140.794 C 131.088 155.751 143.905 200 147.367 210.508 C 150.472 208.668 183.686 268.335 181.824 269.438 L 184.693 346.732 L 253.979 340.865 L 316.024 346.556 L 317.384 273.061 C 314.997 263.301 339.614 211.408 344.233 210.759 C 350.869 200 366.504 137.263 362.937 134.803 C 366.585 137.204 352.311 82.115 345.674 77.542 C 350.372 74.391 306.582 32.287 300 34.183 C 286.871 22.279 219.703 24.182 200 33.944 C 181.57 43.075 169.761 48.031 150.348 75.665 C 140.412 89.808 129.752 121.168 130.499 140.794 Z"/>
+    <ellipse style="stroke: rgb(33, 34, 28); fill: rgb(248, 248, 248); stroke-width: 1.188;" cx="249.604" cy="349.046" rx="67.78" ry="14.512"/>
+    <ellipse style="stroke: rgb(33, 34, 28); fill: rgb(248, 248, 248); stroke-width: 1.249;" cx="249.604" cy="361.982" rx="67.78" ry="15.25"/>
+    <ellipse style="stroke: rgb(33, 34, 28); fill: rgb(248, 248, 248);" cx="249.604" cy="375.771" rx="67.78" ry="12.213"/>
+    <ellipse style="stroke: rgb(33, 34, 28); fill: rgb(248, 248, 248); stroke-width: 1.084;" cx="249.604" cy="413.871" rx="59.093" ry="15.189" transform="matrix(0.999985, -0.005544, 0.008242, 0.99997, -3.576595, 3.041622)"/>
+    <ellipse style="stroke: rgb(33, 34, 28); fill: rgb(248, 248, 248);" cx="249.604" cy="389.445" rx="67.78" ry="12.213"/>
+    <ellipse style="stroke: rgb(33, 34, 28); fill: rgb(248, 248, 248);" cx="249.604" cy="400.197" rx="67.78" ry="12.213"/>
+  </g>
+</svg>
