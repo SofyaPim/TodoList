@@ -5,50 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/faq.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
 
-    <title>faq</title>
+    <title>faq Amazeriffic</title>
 </head>
 <body>
-    <header>
-      <div class="container">
-        <h1>Amazeriffic</h1>
+  <header>
+    <div class="container">
+        <div class="logo-container" style="display: flex; flex-direction: row;">
+            <!-- <img src="img/bulb.svg" style="width: 50px; align-self: start; " alt="Изображение лампочки"> -->
+            <h1>Todo</h1>
+        </div>
+
         <nav>
-            <a href="#">Регистрация</a> | <a href="faq.html">ВиО</a> |
-            <a href="#">Техподдержка</a>
-              </nav>
-            </div>
-      </header>
+            <a href="index.html">главная</a> | <a href="faq.html">ВиО</a> |
+            <a href="#">Техподдержка</a> | <a href="#">Регистрация</a>
+        </nav>
+    </div>
+</header>
       <main>
      <div class="faq-container">
-    <p>
+    <p class="quest">
         What is your return/exchange policy?</p>
 
-<p>HAVEN will gladly accept any full-priced, non-“Release Product” items for exchange or store credit within 7 days of receipt (or within 7 days of being contacted for an In-Store Pickup). We do not offer refunds. Items being returned must be in unworn condition with attached tags and packaging. HAVEN will not accept any returned merchandise without prior written communication and a valid Return Authorization. All sale items, discounted merchandise and items marked as “Release Product” are final sale and cannot be returned or exchanged. HAVEN does not assume any responsibility for lost or damaged returned goods while in transit from the customer. Therefore, we strongly recommend that customers use an appropriate carrier with a tracking system.
+<div class="answer">HAVEN will gladly accept any full-priced, non-“Release Product” items for exchange or store credit 
+  within 7 days of receipt (or within 7 days of being contacted for an In-Store Pickup). </div>
 
-More information on our return policy can be found on our Policies page here: https://havenshop.com/policies/.</p>
+<p class="quest">my store credit expire?</p> 
 
-<p>my store credit expire?</p> 
+<p class="answer">Store credit is issued in the form of a virtual gift card. This credit does not expire and can be redeemed
+ at any HAVEN location as well as online. </p> 
 
-<p>Store credit is issued in the form of a virtual gift card. This credit does not expire and can be redeemed
- at any HAVEN location as well as online. To redeem your credit for an online purchase, simply enter the provided 
- gift card credentials at checkout.</p> 
+<p class="quest">are your shipping costs and delivery times?</p> 
 
-<p>are your shipping costs and delivery times?</p> 
+<p class="answer">costs are calculated based on the shipping location, shipping method and the value of your order.
+ </p> 
 
-<p>costs are calculated based on the shipping location, shipping method and the value of your order.
- Estimated shipping rates and delivery times can be seen here: https://havenshop.com/shipping-rates/. Note that 
- these estimates do not include order processing times or potential customs delays and that they may be subject to 
- fluctuation throughout the year.</p> 
+<p class="quest">HAVEN ship internationally?</p> 
 
-<p>HAVEN ship internationally?</p> 
-
-<p>ships worldwide with the exception of a few select countries. For international orders, we offer both 
-Canada Post and FedEx services. For international Canada Post shipments, once your parcel clears customs, it will 
-be handed over to your local shipping carrier for final delivery. Note that more detailed tracking information can 
-often be found by tracing your parcel on the website of your local shipping carrier (i.e. USPS, China Post, UK Post, 
-etc.). For FedEx shipments, FedEx will be handling your parcel from door-to-door. </p> 
+<p class="answer">ships worldwide with the exception of a few select countries. For international orders, we offer both 
+Canada Post and FedEx services. </p> 
 </div>
 </main>
 <footer>
@@ -68,6 +66,7 @@ etc.). For FedEx shipments, FedEx will be handling your parcel from door-to-door
   <li><a href="#">Вакансии</a></li> </ul>
            </div></div>
          </footer>
-
+         <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+         <script src="scripts/faq.js"></script>
 </body>
 </html>
