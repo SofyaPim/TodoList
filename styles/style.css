@@ -265,6 +265,7 @@ text-shadow: 1px 3px 0 #9EA400, 1px 13px 5px #9EA400, 8px 9px 6px #4E026E;
     transition: 1s;
 }
 .quest{
+    color: #B365D4;
     cursor: pointer;
 }
 .sitemap{
