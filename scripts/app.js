@@ -49,24 +49,24 @@ let main = function () {
                 $("main .content").append(but);
                 
              function addTodo() {
-    let newToDo = inp.val();
-                   
+                    let newToDo = inp.val();
+
                     let $content = $('<ul>');
                     if (newToDo != '') {
                         AddToDos.push($content.append($("<li>").text(newToDo)));
                     }
-                    
+
                     $("main .content").prepend($content);
                     newToDo = inp.val('');
-}
-$(but).on("click", function (event) {
-    addTodo();
-  });
-$(inp).on("keypress", function (event) { if (event.keyCode === 13) {
-      addTodo();
-    }
-});
-
+                }
+                $(but).on("click", function (event) {
+                    addTodo();
+                });
+                $(inp).on("keypress", function (event) {
+                    if (event.keyCode === 13) {
+                        addTodo();
+                    }
+                });
 
 
             };
