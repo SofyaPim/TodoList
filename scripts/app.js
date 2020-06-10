@@ -48,9 +48,9 @@ let main = function () {
                 $("main .content").append(inp);
                 $("main .content").append(but);
                 
-                $(but).on('click', function (params) {
-                    let newToDo = inp.val();
-                    //console.log(newToDo);
+             function addTodo() {
+    let newToDo = inp.val();
+                   
                     let $content = $('<ul>');
                     if (newToDo != '') {
                         AddToDos.push($content.append($("<li>").text(newToDo)));
@@ -58,7 +58,14 @@ let main = function () {
                     
                     $("main .content").prepend($content);
                     newToDo = inp.val('');
-                })
+}
+$(but).on("click", function (event) {
+    addTodo();
+  });
+$(inp).on("keypress", function (event) { if (event.keyCode === 13) {
+      addTodo();
+    }
+});
 
 
 
