@@ -198,7 +198,7 @@ text-shadow: 1px 3px 0 #9EA400, 1px 13px 5px #9EA400, 8px 9px 6px #4E026E;
     min-height: 3vh;
     padding: 5px;
     color: #F9FE72;
-    margin-top: 5px;
+    margin: 10px;
     border-radius: 10px;
     font-size: 24px;
 }
@@ -256,7 +256,7 @@ text-shadow: 1px 3px 0 #9EA400, 1px 13px 5px #9EA400, 8px 9px 6px #4E026E;
     margin: 4px;
     color:  #F9FE72;
     font-size: 24px;
-
+    border-radius: 6px;
 }
 .contact{
     text-align: left;
